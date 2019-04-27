@@ -42,8 +42,8 @@ document.onkeyup = function(event) {
         console.log(letterToGuess[0]);
     }
 
-    document.querySelector("#wins").innerHTML = "Wins: " + gamesWon;
-    document.querySelector("#losses").innerHTML = "losses: " + gamesLost;
-    document.querySelector("#guesses-left").innerHTML = "Guesses left: " + guessesRemaining;
-    document.querySelector("#guesses").innerHTML = "Guesses so far: " + lettersGuessed;
+    document.getElementById("#wins").innerHTML = "Wins: " + gamesWon;
+    document.getElementById("#losses").innerHTML = "losses: " + gamesLost;
+    document.getElementById("#guesses-left").innerHTML = "Guesses left: " + guessesRemaining;
+    document.getElementById("#guesses").innerHTML = "Guesses so far: " + lettersGuessed;
 };
