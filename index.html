@@ -6,15 +6,23 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>The Psychic Game!</h1>
-    <p>Press any key to guess what letter I'm thinking of:</p>
-    <div>
-        <p id="wins"></p>
-        <p id="losses"></p>
-        <p id="guesses-left"></p>
-        <p id="guesses"></p>
+    <div id="container">
+      <h1>The Letter Guessing Game!</h1>
+      <p id="rules">Press any key to guess what letter I'm thinking of:</p>
+      <div id="col1">
+          <p id="wins"></p>
+          <p id="losses"></p>
+      </div>
+      <div id="col2">
+          <p id="guesses-left"></p>
+          <p id="guesses"></p>
+      </div>
+      <div class="row">
+          <p id="previous-game"></p>
+      </div>
     </div>
   </body>
 </html>

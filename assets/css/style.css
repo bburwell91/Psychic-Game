@@ -1,12 +1,58 @@
 body {
-    margin: 20px 10px;
+    background: #065537;
+    height: 100vh;
 }
 
 h1 {
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 50px;
 }
 
 p {
     padding-top: 20px;
+}
+
+#container {
+    color: #FFFFFF;
+    font-family: 'Supermercado One', cursive;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    width: 60%;
+}
+
+#col1, #col2 {
+    float: left;
+    width: 50%;
+}
+
+.row {
+    clear: both;
+    width: 100%;
+}
+
+#rules {
+    animation: blinkingText 1s 3;
+    color: #f3ff51;
+    font-size: 30px;
+}
+
+@keyframes blinkingText{
+    0%{     color: #f3ff51;;    }
+    50%{    color: transparent; }
+    100%{   color: #f3ff51;;    }
+}
+
+#wins, #losses {
+    font-size: 36px;
+}
+
+#guesses-left, #guesses {
+    font-size: 28px;
+}
+
+#previous-game {
+    font-size: 24px;
 }
